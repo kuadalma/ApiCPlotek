@@ -1,8 +1,7 @@
-﻿using api_task.Models;
-using Microsoft.AspNetCore.Http;
+﻿using ApiCPlotek.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace api_task.Controllers
+namespace ApiCPlotek.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

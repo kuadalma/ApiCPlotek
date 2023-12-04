@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace api_task.Migrations
+namespace ApiCPlotek.Migrations
 {
     public partial class mi : Migration
     {

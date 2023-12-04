@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace api_task.Migrations
+namespace ApiCPlotek.Migrations
 {
     public partial class mig1 : Migration
     {

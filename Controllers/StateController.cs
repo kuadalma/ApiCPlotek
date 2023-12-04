@@ -1,12 +1,8 @@
-﻿using api_task;
-using api_task.Models;
-using Microsoft.AspNetCore.Http;
+﻿using ApiCPlotek.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Pomelo.EntityFrameworkCore.MySql;
 
-namespace api_task.Controllers
+namespace ApiCPlotek.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,4 +1,4 @@
-﻿namespace api_task.Models
+﻿namespace ApiCPlotek.Models
 {
     public class Category
     {

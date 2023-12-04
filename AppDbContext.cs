@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using api_task.Models;
-using System;
+using ApiCPlotek.Models;
 
-namespace api_task
+namespace ApiCPlotek
 {
     public class AppDbContext : DbContext
     {
@@ -25,9 +23,6 @@ namespace api_task
             services.AddDbContext<AppDbContext>(options =>
                 options.UseMySql(_configuration.GetConnectionString("MySqlConnection"), ServerVersion.AutoDetect(_configuration.GetConnectionString("MySqlConnection"))));
             services.AddDbContext<AppDbContext>();
-
         }
-
-
     }
 }

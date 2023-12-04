@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using api_task;
+using ApiCPlotek;
 
 #nullable disable
 
-namespace api_task.Migrations
+namespace ApiCPlotek.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20231103074746_mi")]
